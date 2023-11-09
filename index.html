@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Dino runner game</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="dinno_runner_background">
+        <div id="score" class="score"></div>
+        <img id="dinno" class="dinno" src="./image/dinno_run_1.png" alt="Dino">
+        <img id="dinnoEnemy" class="dinno_enemy" src="./image/dinno_enemy.png" alt="Enemy">
+        <img id="dinnoDead" class="dinno_dead" src="./image/dino_dead_1.png" alt="Dead">
+        <div id="gameOver" class="game_over">
+            <p>Game Over</p>
+            <button id="restart" type="button" class="btn btn-success">Restart</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

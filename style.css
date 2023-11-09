@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow: hidden;
+}
+
+.dinno_runner_background {
+    width: 100%;
+    height: 100vh;
+    background-image: url("./image/dinno_runner_background.jpg");
+    background-size: cover;
+}
+
+.dinno {
+    height: 120px;
+    position: absolute;
+    bottom: 0;
+    left: 10px;
+}
+
+.dinno_dead {
+    display: none;
+    height: 150px;
+    position: absolute;
+    bottom: 0;
+    left: 10px;
+}
+
+.dinno_enemy {
+    height: 100px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.score {
+    display: flex;
+    justify-content: end;
+    color: #fff;
+    font-size: 22px;
+    padding: 10px 10px 0 0;
+}
+
+.game_over {
+    font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.game_over p {
+    font-size: 22px;
+    color: #fff;
+}
